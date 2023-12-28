@@ -1,7 +1,4 @@
 import React from 'react';
-import briefcase from "../assets/images/briefcase.svg";
-import file from "../assets/images/file.svg";
-import notebook from "../assets/images/notebook.svg";
 
 function Section2() {
   return (
@@ -73,7 +70,6 @@ function Section2() {
                 tellus.
               </p>
             </div>
-
             <div className="group max-w-[369px] min-h-[289px] rounded-[16px] border border-solid border-[rgba(255, 255, 255, 0.20)] bg-[#353535] pt-[25px] pl-[20px] pr-[19px] hover:bg-[#FDDA60] hover:shadow-[0px_14px_56px_0px_rgba(253,218,96,0.50)] flex flex-col items-center relative overflow-hidden">
               <div className="w-[109px] h-[109px] bg-white rounded-[50%] absolute bottom-[-18%] left-[-9%] blur-[94px]"></div>
               <div className="w-[91px] h-[91px] bg-white rounded-[50%] absolute top-[-13%] right-[-6%] blur-[76px]"></div>
@@ -111,7 +107,6 @@ function Section2() {
                 tellus.
               </p>
             </div>
-
             <div className="group max-w-[369px] min-h-[289px] rounded-[16px] border border-solid border-[rgba(255, 255, 255, 0.20)] bg-[#353535] pt-[25px] pl-[20px] pr-[19px] hover:bg-[#FDDA60] hover:shadow-[0px_14px_56px_0px_rgba(253,218,96,0.50)] flex flex-col items-center relative overflow-hidden">
               <div className="w-[109px] h-[109px] bg-white rounded-[50%] absolute bottom-[-18%] left-[-9%] blur-[94px]"></div>
               <div className="w-[91px] h-[91px] bg-white rounded-[50%] absolute top-[-13%] right-[-6%] blur-[76px]"></div>
