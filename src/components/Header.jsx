@@ -13,7 +13,9 @@ function Header() {
     <>
       <div
         className="min-h-[810px] bg-local bg-no-repeat bg-cover bg-center"
-        style={{ backgroundImage: `url("/src/assets/images/heroSecbg.webp")`}}
+        style={{
+          backgroundImage: `url("./src/assets/images/heroSecbg.webp")`,
+        }}
       >
         <div className="max-w-[1164px] mx-auto px-3 w-full pt-[90px] min-[700px]:pt-1.5 flex flex-col items-center relative">
           <Button1
