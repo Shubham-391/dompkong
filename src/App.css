@@ -1,2 +1,11 @@
 @import url("https://db.onlinewebfonts.com/c/d03165bd677535fe8da7479e26b13180?family=Azo+Sans+Uber+W01+Regular");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap");
+.header-bg{
+    background-image: url(/src/assets/images/heroSecbg.webp);
+}
+.section4-bg{
+    background-image: url(/src/assets/images/section4bg.webp);
+}
+.section8-bg{
+    background-image: url(/src/assets/images/section8bg.webp);
+}

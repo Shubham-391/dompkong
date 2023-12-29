@@ -11,10 +11,7 @@ import wboat from "../assets/images/wboat.webp";
 function Section8() {
   return (
     <>
-      <div
-        className="min-h-[973px] bg-local bg-no-repeat bg-cover bg-center relative overflow-hidden"
-        style={{ backgroundImage: `url("/src/assets/images/section8bg.webp")` }}
-      >
+      <div className="min-h-[973px] bg-local bg-no-repeat bg-cover bg-center relative overflow-hidden section8-bg">
         <div className="absolute w-[132px] h-[132px] rounded-[50%] bg-[#FDDA60] blur-[146px] top-[31%] left-[3%]"></div>
         <div className="absolute w-[247px] h-[247px] rounded-[50%] bg-[#FDDA60] blur-[146px] bottom-[-5%] left-[-4%] hidden min-[992px]:block"></div>
         <div className="max-w-[920px] mx-auto px-3">

@@ -6,8 +6,7 @@ function Section4() {
   return (
     <>
       <div
-        className="min-h-[928px] bg-local bg-no-repeat bg-cover bg-center flex items-center py-12 min-[800px]:py-0 relative overflow-hidden"
-        style={{ backgroundImage: `url("/src/assets/images/section4bg.webp")` }}
+        className="min-h-[928px] bg-local bg-no-repeat bg-cover bg-center section4-bg flex items-center py-12 min-[800px]:py-0 relative overflow-hidden"
       >
         <div className="absolute w-[173px] rounded-[50%] h-[173px] bg-[#FDDA60] blur-[146px] left-0 top-[9%] hidden sm:block"></div>
         <div className="absolute w-[296px] h-[296px] rounded-[50%] bg-[#FDDA60] blur-[146px] right-[-5%] top-[68%] min-[800px]:top-[33%] hidden sm:block"></div>

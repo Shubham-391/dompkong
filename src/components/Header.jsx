@@ -11,10 +11,7 @@ import Button1 from "./Button1";
 function Header() {
   return (
     <>
-      <div
-        className="min-h-[810px] bg-local bg-no-repeat bg-cover bg-center"
-        style={{ backgroundImage: `url("/src/assets/images/heroSecbg.webp")`}}
-      >
+      <div className="min-h-[810px] header-bg bg-local bg-no-repeat bg-cover bg-center">
         <div className="max-w-[1164px] mx-auto px-3 w-full pt-[90px] min-[700px]:pt-1.5 flex flex-col items-center relative">
           <Button1
             text="CONNECT WALLET"
