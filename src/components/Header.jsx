@@ -6,7 +6,7 @@ import diamond from "../assets/images/diamond.webp";
 import discordh from "../assets/images/discordh.webp";
 import mletterh from "../assets/images/mletterh.webp";
 import telegramh from "../assets/images/telegramh.webp";
-import Button from "./button";
+import Button1 from "./Button1";
 
 function Header() {
   return (
@@ -16,7 +16,7 @@ function Header() {
         style={{ backgroundImage: `url("/src/assets/images/heroSecbg.webp")`}}
       >
         <div className="max-w-[1164px] mx-auto px-3 w-full pt-[90px] min-[700px]:pt-1.5 flex flex-col items-center relative">
-          <Button
+          <Button1
             text="CONNECT WALLET"
             className="text-black text-center font-azo not-italic font-base font-normal leading-[108.744%] uppercase absolute right-[12px] min-[1200px]:right-0 top-[25px]"
           />
@@ -75,15 +75,15 @@ function Header() {
             amet et. Erat nam molestie. Vita
           </p>
           <div className="flex gap-8 flex-wrap justify-center">
-            <Button
+            <Button1
               text="Whitepaper"
               className="text-black text-center font-azo not-italic font-base font-normal leading-[108.744%] uppercase"
             />
-            <Button
+            <Button1
               text="Mint"
               className="text-black text-center font-azo not-italic font-base font-normal leading-[108.744%] uppercase"
             />
-            <Button
+            <Button1
               text="Opensea"
               className="text-black text-center font-azo not-italic font-base font-normal leading-[108.744%] uppercase"
             />

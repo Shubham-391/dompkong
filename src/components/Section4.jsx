@@ -1,6 +1,6 @@
 import React from "react";
 import wine from "../assets/images/wine.webp";
-import Button from "./button";
+import Button1 from "./Button1";
 
 function Section4() {
   return (
@@ -65,7 +65,7 @@ function Section4() {
                   +
                 </button>
               </div>
-              <Button
+              <Button1
                 text="MINT NOW"
                 className="text-black text-center font-azo text-2xl not-italic font-normal leading-[108.744%] max-w-[494px] w-full"
               />

@@ -1,7 +1,7 @@
 import React from "react";
 import section5ape from "../assets/images/section5ape.webp";
 import semicircle from "../assets/images/semicircle.webp";
-import Button from "./button";
+import Button1 from "./Button1";
 
 function Section5() {
   return (
@@ -165,7 +165,7 @@ function Section5() {
               </div>
             </div>
           </div>
-          <Button
+          <Button1
             text="Read Our Whitepaper"
             className="text-black text-center font-azo text-[20px] not-italic font-normal leading-[108.744%] uppercase mt-[66px]"
           />

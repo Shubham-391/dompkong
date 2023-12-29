@@ -1,6 +1,4 @@
-import plus from "../assets/images/plus.webp";
-import minus from "../assets/images/minus.webp";
-import React, { useState } from "react";
+import React from "react";
 import Accordian from "./Accordian";
 import section8ape from "../assets/images/section8ape.webp";
 import wtwitter from "../assets/images/wtwitter.webp";

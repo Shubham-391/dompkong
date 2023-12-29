@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Button(props) {
+function Button1() {
   return (
     <>
       <button
@@ -12,4 +12,4 @@ function Button(props) {
   );
 }
 
-export default Button
+export default Button1
