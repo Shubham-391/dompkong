@@ -1,5 +1,4 @@
 import './App.css'
-import Accordion from './components/Accordian'
 import Backtotop from './components/Backtotop'
 import Header from './components/Header'
 import Preloader from './components/Preloader'
