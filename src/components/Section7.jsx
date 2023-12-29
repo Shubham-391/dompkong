@@ -8,7 +8,7 @@ import ytwitter from "../assets/images/ytwitter.webp";
 function Section7() {
   return (
     <>
-      <div className="bg-[#0A0A0A]">
+      <div className="bg-[#0A0A0A] pt-6 sm:pt-0 pb-12 md:pb-0">
         <div className="max-w-[1164px] mx-auto px-3">
           <h2 className="text-white text-center font-azo text-[33px] sm:text-[64px] not-italic font-normal leading-[108.744%] pb-[53px]">
             Meet The Team
@@ -102,7 +102,7 @@ function Section7() {
           </div>
 
           <div className="w-full h-[1px] bg-[#FDDA60] shadow-[0_0_15px_1px_#FDDA60]"></div>
-          <div className="pt-[34px] pb-[65px] flex flex-wrap gap-y-4">
+          <div className="pt-[34px] md:pb-[141px] flex flex-wrap gap-y-4">
             <div className="w-full md:w-1/2">
               <h3 className="text-white font-montserrat text-[24px] not-italic font-bold leading-[108.744%] pb-3">
                 Alfonso Franci

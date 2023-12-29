@@ -4,8 +4,8 @@ import section1cards from "../assets/images/section1cards.webp"
 function Section1() {
   return (
     <>
-      <div className="min-h-[536px] bg-[#0A0A0A] flex items-center">
-        <div className="flex max-w-[1164px] mx-auto px-3 w-full translate-y-[20px] flex-wrap ">
+      <div className="py-[48px] sm:py-0 sm:min-h-[536px] bg-[#0A0A0A] flex items-center">
+        <div className="flex max-w-[1164px] mx-auto px-3 w-full sm:translate-y-[20px] flex-wrap ">
           <div className="w-full lg:w-1/2 pl-1 flex flex-col justify-center items-center lg:items-start text-center lg:text-start">
             <h2 className="text-white font-azo text-[45px] sm:text-[64px] not-italic font-normal leading-[108.744%]">
               About

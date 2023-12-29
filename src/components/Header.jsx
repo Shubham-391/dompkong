@@ -47,7 +47,7 @@ function Header() {
               href="https://discord.com/"
               target="_blank"
             >
-              <img src={discordh} alt="opensea logo" />
+              <img src={discordh} alt="discord logo" />
             </a>
             <a
               className="hover:translate-y-[-3px] transition-all duration-300 ease-linear"

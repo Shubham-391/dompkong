@@ -4,7 +4,7 @@ function Section2() {
   return (
     <>
       <div className="bg-[#0A0A0A]">
-        <div className="max-w-[1164px] mx-auto px-3 pb-[125px]">
+        <div className="max-w-[1164px] mx-auto px-3 pb-[48px] sm:pb-[125px]">
           <h2 className="text-white text-center font-azo text-[45px] min-[400px]:text-[64px] not-italic font-normal leading-[108.744%] pb-[54px]">
             Utilities
           </h2>

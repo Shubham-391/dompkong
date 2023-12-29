@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      'azo': ["Azo Sans Uber W01 Regular"],
-      'montserrat': ["Montserrat"]
+      azo: ["Azo Sans Uber W01 Regular"],
+      montserrat: ["Montserrat"],
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

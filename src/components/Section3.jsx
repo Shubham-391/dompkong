@@ -16,7 +16,7 @@ function Section3() {
       <div className="min-h-[1124px] w-full bg-[#0A0A0A] flex flex-col items-center relative overflow-hidden">
         {/* main box */}
         <div className="absolute w-[182px] md:w-[364px] h-[182px] md:h-[364px] rounded-[50%] bg-[#FDDA60] blur-[180px] top-[10%] md:top-[34%]"></div>
-        <h1 className="pt-[44px] text-white text-center font-azo text-[64px] not-italic font-normal leading-[108.744%]">
+        <h1 className="sm:pt-[44px] text-white text-center font-azo text-[64px] not-italic font-normal leading-[108.744%]">
           THE KONGS
         </h1>
         <img
