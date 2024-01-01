@@ -7,17 +7,37 @@ import discordh from "../assets/images/discordh.webp";
 import mletterh from "../assets/images/mletterh.webp";
 import telegramh from "../assets/images/telegramh.webp";
 import Button1 from "./Button1";
+import heroalbert from "../assets//images/heroalbert.webp";
+import heroprince from "../assets/images/heroprince.webp";
+import heropac from "../assets/images/heropac.webp";
 
 function Header() {
   return (
     <>
-      <div className="min-h-[810px] header-bg bg-local bg-no-repeat bg-cover bg-center">
-        <div className="max-w-[1164px] mx-auto px-3 w-full pt-[90px] min-[700px]:pt-1.5 flex flex-col items-center relative">
+      <div className="min-h-[810px] min-[1440px]:min-h-screen header-bg bg-no-repeat bg-cover bg-center relative overflow-hidden">
+        <img
+          className="hidden xl:block absolute w-[641px] bottom-0 right-[-20.5%] min-[1440px]:right-[-14%] z-[3]"
+          src={heroalbert}
+          alt="ape"
+        />
+        <img
+          className="hidden xl:block absolute w-[417px] z-[2] bottom-0 right-[10.5%]"
+          src={heroprince}
+          alt="ape"
+        />
+        <img
+          className="absolute w-[405px] bottom-0 right-0 sm:right-[31%]"
+          src={heropac}
+          alt="ape"
+        />
+        <div className="max-w-[1164px] mx-auto px-3 w-full min-[700px]:pt-1.5 flex flex-col items-center relative">
           <Button1
             text="CONNECT WALLET"
-            className="text-black text-center font-azo not-italic font-base font-normal leading-[108.744%] uppercase absolute right-[12px] min-[1200px]:right-0 top-[25px]"
+            className="text-black text-center font-azo not-italic text-[12px] min-[400px]:text-base font-normal leading-[108.744%] uppercase absolute right-[12px] min-[1200px]:right-0 top-[25px]"
           />
-          <img className="w-[116px] h-[87px]" src={logo} alt="logo" />
+          <div className="w-full justify-start flex sm:justify-center">
+            <img className="w-[116px] h-[87px]" src={logo} alt="logo" />
+          </div>
           <div className="flex gap-6 mt-[19px] mb-[39px]">
             <a
               className="hover:translate-y-[-3px] transition-all duration-300 ease-linear"
@@ -71,18 +91,18 @@ function Header() {
             Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra
             amet et. Erat nam molestie. Vita
           </p>
-          <div className="flex gap-8 flex-wrap justify-center">
+          <div className="flex min-[500px]:gap-[32px] gap-[4px] flex-wrap justify-center relative z-[5]">
             <Button1
               text="Whitepaper"
-              className="text-black text-center font-azo not-italic font-base font-normal leading-[108.744%] uppercase"
+              className="text-black text-center font-azo not-italic text-[8px] min-[350px]:text-[12px] min-[500px]:text-base font-normal leading-[108.744%] uppercase"
             />
             <Button1
               text="Mint"
-              className="text-black text-center font-azo not-italic font-base font-normal leading-[108.744%] uppercase"
+              className="text-black text-center font-azo not-italic text-[8px] min-[350px]:text-[12px] min-[500px]:text-base font-normal leading-[108.744%] uppercase"
             />
             <Button1
               text="Opensea"
-              className="text-black text-center font-azo not-italic font-base font-normal leading-[108.744%] uppercase"
+              className="text-black text-center font-azo not-italic text-[8px] min-[350px]:text-[12px] min-[500px]:text-base font-normal leading-[108.744%] uppercase"
             />
           </div>
         </div>

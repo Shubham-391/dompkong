@@ -15,7 +15,7 @@ function Section7() {
           </h2>
           <div className="w-full h-[1px] bg-[#FDDA60] shadow-[0_0_15px_1px_#FDDA60]"></div>
           <div className="pt-[23px] pb-[65px] flex flex-wrap gap-y-4">
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
               <h3 className="text-white font-montserrat text-[24px] not-italic font-bold leading-[108.744%] pb-3">
                 Jaylon Schleifer
               </h3>
@@ -28,20 +28,20 @@ function Section7() {
                 alt="man"
               />
             </div>
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
               <h3 className="text-white font-montserrat text-[24px] not-italic font-semibold leading-[108.744%] pb-3">
                 @Jaylon Schleifer
               </h3>
-              <p className="text-white font-montserrat text-[20px] not-italic font-normal leading-[108.744%] pb-8">
+              <p className="text-white font-montserrat text-[20px] not-italic font-normal leading-[108.744%] pb-8 text-center md:text-left">
                 Nearly two decades in Business
               </p>
-              <p className="mb-[10px] text-white font-montserrat text-base not-italic font-normal leading-[160%]">
+              <p className="mb-[10px] text-white font-montserrat text-base not-italic font-normal leading-[160%] text-center md:text-left">
                 Faucibus risus id libero interdum in nisl nibh risus molestie.
                 Gravida purus mauris nulla duis est eleifend. Suspendisse eu
                 iaculis odio sit. Hac orci massa habitasse congue nulla
                 tristique.
               </p>
-              <p className="text-white font-montserrat text-base not-italic font-normal leading-[160%] pb-[21px]">
+              <p className="text-white font-montserrat text-base not-italic font-normal leading-[160%] pb-[21px] text-center md:text-left">
                 Sem posuere amet, tristique pellentesque quis erat lectus
                 mauris, ultricies. Adipiscing pharetra lectus mauris, mi
                 pharetra magna in tempus nisi. Sed at in nisl feugiat non in
@@ -49,10 +49,18 @@ function Section7() {
               </p>
               <div className="flex gap-4">
                 <a href="https://www.instagram.com/" target="_blank">
-                  <img src={yinsta} alt="instagram logo" />
+                  <img
+                    className="duration-300 drop-shadow-[0_0_5px_#FDDA60] hover:drop-shadow-none"
+                    src={yinsta}
+                    alt="instagram logo"
+                  />
                 </a>
                 <a href="https://twitter.com/" target="_blank">
-                  <img src={ytwitter} alt="twitter logo" />
+                  <img
+                    className="duration-300 drop-shadow-[0_0_5px_#FDDA60] hover:drop-shadow-none"
+                    src={ytwitter}
+                    alt="twitter logo"
+                  />
                 </a>
               </div>
             </div>
@@ -60,7 +68,7 @@ function Section7() {
 
           <div className="w-full h-[1px] bg-[#FDDA60] shadow-[0_0_15px_1px_#FDDA60]"></div>
           <div className="pt-[34px] pb-[65px] flex flex-wrap gap-y-4">
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
               <h3 className="text-white font-montserrat text-[24px] not-italic font-bold leading-[108.744%] pb-3">
                 Talan Passaquindici Arcand
               </h3>
@@ -73,29 +81,29 @@ function Section7() {
                 alt="man"
               />
             </div>
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
               <h3 className="text-white font-montserrat text-[24px] not-italic font-semibold leading-[108.744%] pb-3">
                 @Talan Passaquindici Arcand
               </h3>
-              <p className="text-white font-montserrat text-[20px] not-italic font-normal leading-[108.744%] pb-8">
+              <p className="text-white font-montserrat text-[20px] not-italic font-normal leading-[108.744%] pb-8 text-center md:text-left">
                 Invester & International Top Model
               </p>
-              <p className="mb-[10px] text-white font-montserrat text-base not-italic font-normal leading-[160%]">
+              <p className="mb-[10px] text-white font-montserrat text-base not-italic font-normal leading-[160%] text-center md:text-left">
                 Neque hendrerit lectus neque molestie facilisis. Faucibus arcu
                 eget facilisis nisl id ultricies. Aliquet eget scelerisque
                 posuere habitant mauris quis ridiculus rutrum consectetur.
               </p>
-              <p className="text-white font-montserrat text-base not-italic font-normal leading-[160%] pb-[32px]">
+              <p className="text-white font-montserrat text-base not-italic font-normal leading-[160%] pb-[32px] text-center md:text-left">
                 Pretium vitae nunc proin nullam turpis eu blandit. Nibh
                 ultricies gravida vestibulum nec ultricies. Eleifend egestas non
                 nunc, nisl tristique adipiscing non diam fermentum.
               </p>
               <div className="flex gap-4">
                 <a href="https://www.instagram.com/" target="_blank">
-                  <img src={yinsta} alt="instagram logo" />
+                  <img className="duration-300 drop-shadow-[0_0_5px_#FDDA60] hover:drop-shadow-none" src={yinsta} alt="instagram logo" />
                 </a>
                 <a href="https://twitter.com/" target="_blank">
-                  <img src={ytwitter} alt="twitter logo" />
+                  <img className="duration-300 drop-shadow-[0_0_5px_#FDDA60] hover:drop-shadow-none" src={ytwitter} alt="twitter logo" />
                 </a>
               </div>
             </div>
@@ -103,7 +111,7 @@ function Section7() {
 
           <div className="w-full h-[1px] bg-[#FDDA60] shadow-[0_0_15px_1px_#FDDA60]"></div>
           <div className="pt-[34px] md:pb-[141px] flex flex-wrap gap-y-4">
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
               <h3 className="text-white font-montserrat text-[24px] not-italic font-bold leading-[108.744%] pb-3">
                 Alfonso Franci
               </h3>
@@ -116,29 +124,29 @@ function Section7() {
                 alt="man"
               />
             </div>
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
               <h3 className="text-white font-montserrat text-[24px] not-italic font-semibold leading-[108.744%] pb-3">
                 @Alfonso Franci
               </h3>
-              <p className="text-white font-montserrat text-[20px] not-italic font-normal leading-[108.744%] pb-8">
+              <p className="text-white font-montserrat text-[20px] not-italic font-normal leading-[108.744%] pb-8 text-center md:text-left">
                 Nearly two decades in Business
               </p>
-              <p className="mb-[10px] text-white font-montserrat text-base not-italic font-normal leading-[160%]">
+              <p className="mb-[10px] text-white font-montserrat text-base not-italic font-normal leading-[160%] text-center md:text-left">
                 A ut sagittis, purus sit integer suspendisse lacus quam auctor.
                 Interdum venenatis, sed ligula purus erat. A hac faucibus
                 blandit euismod molestie amet nibh scelerisque.
               </p>
-              <p className="text-white font-montserrat text-base not-italic font-normal leading-[160%] pb-[25px]">
+              <p className="text-white font-montserrat text-base not-italic font-normal leading-[160%] pb-[25px] text-center md:text-left">
                 Fermentum aliquam fames suscipit scelerisque integer mauris
                 sollicitudin. Tellus mattis egestas molestie elementum,
                 elementum. Urna, in molestie ac quam nisl orci mattis.
               </p>
               <div className="flex gap-4">
                 <a href="https://www.instagram.com/" target="_blank">
-                  <img src={yinsta} alt="instagram logo" />
+                  <img className="duration-300 drop-shadow-[0_0_5px_#FDDA60] hover:drop-shadow-none" src={yinsta} alt="instagram logo" />
                 </a>
                 <a href="https://twitter.com/" target="_blank">
-                  <img src={ytwitter} alt="twitter logo" />
+                  <img className="duration-300 drop-shadow-[0_0_5px_#FDDA60] hover:drop-shadow-none" src={ytwitter} alt="twitter logo" />
                 </a>
               </div>
             </div>

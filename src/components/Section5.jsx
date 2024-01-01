@@ -30,12 +30,12 @@ function Section5() {
                 fill="none"
               >
                 <path
-                  className="group-hover:fill-[#FDDA60]"
+                  className="group-hover:fill-[#FDDA60] duration-300 "
                   d="M0.666667 6C0.666666 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666666 0.666667 3.05448 0.666667 6ZM167.667 6.00001C167.667 8.94553 170.054 11.3333 173 11.3333C175.946 11.3333 178.333 8.94553 178.333 6.00002C178.333 3.0545 175.946 0.666681 173 0.666681C170.054 0.666681 167.667 3.0545 167.667 6.00001ZM6 7L173 7.00001L173 5.00001L6 5L6 7Z"
                   fill="white"
                 />
               </svg>
-              <div className="w-[76px] h-[76px] bg-white text-black font-montserrat text-[20px] not-italic font-black rounded-[50%] flex justify-center items-center leading-[108.744%] xl:ml-6 mr-[43px] shrink-0 group-hover:bg-[#FDDA60] group-hover:shadow-[0px_4px_21px_rgba(253,218,96,0.70)]">
+              <div className="w-[76px] h-[76px] bg-white text-black font-montserrat text-[20px] not-italic font-black rounded-[50%] flex justify-center items-center leading-[108.744%] xl:ml-6 mr-[43px] shrink-0 group-hover:bg-[#FDDA60] duration-300 group-hover:shadow-[0px_4px_21px_rgba(253,218,96,0.70)]">
                 20%
               </div>
               <div className="flex flex-col gap-y-2 xl:max-w-[593px]">
@@ -59,12 +59,12 @@ function Section5() {
                 fill="none"
               >
                 <path
-                  className="group-hover:fill-[#FDDA60]"
+                  className="group-hover:fill-[#FDDA60] duration-300"
                   d="M0.666667 6C0.666666 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666666 0.666667 3.05448 0.666667 6ZM97.6667 6.00001C97.6667 8.94553 100.054 11.3333 103 11.3333C105.946 11.3333 108.333 8.94553 108.333 6.00001C108.333 3.05449 105.946 0.666675 103 0.666675C100.054 0.666675 97.6667 3.05449 97.6667 6.00001ZM6 7L103 7.00001L103 5.00001L6 5L6 7Z"
                   fill="white"
                 />
               </svg>
-              <div className="w-[76px] h-[76px] bg-white text-black font-montserrat text-[20px] not-italic font-black rounded-[50%] flex justify-center items-center leading-[108.744%] xl:ml-[41px] mr-[43px] shrink-0 group-hover:bg-[#FDDA60] group-hover:shadow-[0px_4px_21px_rgba(253,218,96,0.70)]">
+              <div className="w-[76px] h-[76px] bg-white text-black font-montserrat text-[20px] not-italic font-black rounded-[50%] flex justify-center items-center leading-[108.744%] xl:ml-[41px] mr-[43px] shrink-0 group-hover:bg-[#FDDA60] duration-300 group-hover:shadow-[0px_4px_21px_rgba(253,218,96,0.70)]">
                 40%
               </div>
               <div className="flex flex-col gap-y-2 xl:max-w-[593px]">
@@ -88,12 +88,12 @@ function Section5() {
                 fill="none"
               >
                 <path
-                  className="group-hover:fill-[#FDDA60]"
+                  className="group-hover:fill-[#FDDA60] duration-300"
                   d="M0.666667 6C0.666667 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666667 0.666667 3.05448 0.666667 6ZM111.667 6C111.667 8.94552 114.054 11.3333 117 11.3333C119.946 11.3333 122.333 8.94552 122.333 6C122.333 3.05448 119.946 0.666667 117 0.666667C114.054 0.666667 111.667 3.05448 111.667 6ZM6 7H117V5H6V7Z"
                   fill="white"
                 />
               </svg>
-              <div className="w-[76px] h-[76px] bg-white text-black font-montserrat text-[20px] not-italic font-black rounded-[50%] flex justify-center items-center leading-[108.744%] xl:ml-[54px] mr-[43px] shrink-0 group-hover:bg-[#FDDA60] group-hover:shadow-[0px_4px_21px_rgba(253,218,96,0.70)]">
+              <div className="w-[76px] h-[76px] bg-white text-black font-montserrat text-[20px] not-italic font-black rounded-[50%] flex justify-center items-center leading-[108.744%] xl:ml-[54px] mr-[43px] shrink-0 group-hover:bg-[#FDDA60] duration-300 group-hover:shadow-[0px_4px_21px_rgba(253,218,96,0.70)]">
                 60%
               </div>
               <div className="flex flex-col gap-y-2 xl:max-w-[593px]">
@@ -117,12 +117,12 @@ function Section5() {
                 fill="none"
               >
                 <path
-                  className="group-hover:fill-[#FDDA60]"
+                  className="group-hover:fill-[#FDDA60] duration-300"
                   d="M0.666667 6C0.666666 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666666 0.666667 3.05448 0.666667 6ZM85.6667 6.00001C85.6667 8.94553 88.0545 11.3333 91 11.3333C93.9455 11.3333 96.3333 8.94553 96.3333 6.00001C96.3333 3.05449 93.9455 0.666674 91 0.666674C88.0545 0.666674 85.6667 3.05449 85.6667 6.00001ZM6 7L91 7.00001L91 5.00001L6 5L6 7Z"
                   fill="white"
                 />
               </svg>
-              <div className="w-[76px] h-[76px] bg-white text-black font-montserrat text-[20px] not-italic font-black rounded-[50%] flex justify-center items-center leading-[108.744%] xl:ml-[41px] mr-[43px] shrink-0 group-hover:bg-[#FDDA60] group-hover:shadow-[0px_4px_21px_rgba(253,218,96,0.70)]">
+              <div className="w-[76px] h-[76px] bg-white text-black font-montserrat text-[20px] not-italic font-black rounded-[50%] flex justify-center items-center leading-[108.744%] xl:ml-[41px] mr-[43px] shrink-0 group-hover:bg-[#FDDA60] duration-300 group-hover:shadow-[0px_4px_21px_rgba(253,218,96,0.70)]">
                 80%
               </div>
               <div className="flex flex-col gap-y-2 xl:max-w-[593px]">
@@ -146,12 +146,12 @@ function Section5() {
                 fill="none"
               >
                 <path
-                  className="group-hover:fill-[#FDDA60]"
+                  className="group-hover:fill-[#FDDA60] duration-300"
                   d="M0.666667 6C0.666666 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666666 0.666667 3.05448 0.666667 6ZM121.667 6.00001C121.667 8.94553 124.054 11.3333 127 11.3333C129.946 11.3333 132.333 8.94553 132.333 6.00001C132.333 3.05449 129.946 0.666677 127 0.666677C124.054 0.666677 121.667 3.05449 121.667 6.00001ZM6 7L127 7.00001L127 5.00001L6 5L6 7Z"
                   fill="white"
                 />
               </svg>
-              <div className="w-[76px] h-[76px] bg-white text-black font-montserrat text-[20px] not-italic font-black rounded-[50%] flex justify-center items-center leading-[108.744%] xl:ml-[24px] mr-[43px] shrink-0 group-hover:bg-[#FDDA60] group-hover:shadow-[0px_4px_21px_rgba(253,218,96,0.70)]">
+              <div className="w-[76px] h-[76px] bg-white text-black font-montserrat text-[20px] not-italic font-black rounded-[50%] flex justify-center items-center leading-[108.744%] xl:ml-[24px] mr-[43px] shrink-0 group-hover:bg-[#FDDA60] duration-300 group-hover:shadow-[0px_4px_21px_rgba(253,218,96,0.70)]">
                 100%
               </div>
               <div className="flex flex-col gap-y-2 xl:max-w-[593px]">

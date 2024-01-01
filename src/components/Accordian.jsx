@@ -9,7 +9,7 @@ function Accordian({heading,content}) {
       <div className='relative'>
         <div
           onClick={() => setAccordionOpen(!accordionOpen)}
-          className={`pt-[25px] flex justify-between w-full items-center cursor-pointer ${
+          className={`pt-[25px] flex justify-between w-full items-center cursor-pointer durati on-300 ${
             accordionOpen ? "pb-0" : "pb-[17px]"
           }`}
         >
@@ -22,7 +22,7 @@ function Accordian({heading,content}) {
         </div>
         <div
           className={`overflow-hidden transition-all duration-300 ease-linear ${
-            accordionOpen ? "min-h-[95px] pt-[9px] opacity-1" : "h-0 opacity-0 pt-0"
+            accordionOpen ? "min-h-[95px] pt-[9px] opacity-1" : "h-0 min-h-0 opacity-0 pt-0"
           } `}
         >
           <p className="text-white font-montserrat text-base not-italic font-normal leading-[160%]">
