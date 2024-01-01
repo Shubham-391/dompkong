@@ -6,7 +6,11 @@ import Button1 from "./Button1";
 function Section5() {
   return (
     <>
-      <div className="bg-[#0A0A0A] min-h-[1044px] pb-6 xl:pb-0">
+      <div
+        className="bg-[#0A0A0A] min-h-[1044px] pb-6 xl:pb-0 overflow-hidden"
+        data-aos="zoom-in"
+        data-aos-once="true"
+      >
         <h2 className="text-white text-center font-azo text-[50px] sm:text-[64px] not-italic font-normal leading-[108.744%] pb-[24px] md:pt-[94px] md:pb-[71px]">
           Roadmap
         </h2>

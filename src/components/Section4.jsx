@@ -19,10 +19,10 @@ function Section4() {
         <div className="absolute w-[173px] rounded-[50%] h-[173px] bg-[#FDDA60] blur-[146px] left-0 top-[9%] hidden sm:block"></div>
         <div className="absolute w-[296px] h-[296px] rounded-[50%] bg-[#FDDA60] blur-[146px] right-[-5%] top-[68%] min-[800px]:top-[33%] hidden sm:block"></div>
         <div className="max-w-[1040px] px-3 mx-auto flex items-center w-full flex-wrap gap-y-6">
-          <div className="w-full min-[800px]:w-1/2 flex justify-center min-[800px]:justify-start">
+          <div className="w-full min-[800px]:w-1/2 flex justify-center min-[800px]:justify-start" data-aos="fade-right" data-aos-once="true">
             <img className="w-[200px] sm:w-[354px]" src={wine} alt="wine" />
           </div>
-          <div className="w-full min-[800px]:w-1/2 flex justify-center min-[800px]:justify-start">
+          <div className="w-full min-[800px]:w-1/2 flex justify-center min-[800px]:justify-start" data-aos="fade-left" data-aos-once="true">
             <div className="max-w-[511px] w-full relative">
               <h2 className="text-center min-[800px]:text-start text-white font-azo text-[50px] sm:text-[64px] not-italic font-normal leading-[108.744%] mb-[51px]">
                 Mint NFT

@@ -11,6 +11,7 @@ import heroalbert from "../assets//images/heroalbert.webp";
 import heroprince from "../assets/images/heroprince.webp";
 import heropac from "../assets/images/heropac.webp";
 
+
 function Header() {
   return (
     <>
@@ -30,7 +31,12 @@ function Header() {
           src={heropac}
           alt="ape"
         />
-        <div className="max-w-[1164px] mx-auto px-3 w-full min-[700px]:pt-1.5 flex flex-col items-center relative">
+        <div
+          className="max-w-[1164px] mx-auto px-3 w-full min-[700px]:pt-1.5 flex flex-col items-center relative z-[4]"
+          data-aos="zoom-in"
+          data-aos-delay="2000"
+          data-aos-once="true"
+        >
           <Button1
             text="CONNECT WALLET"
             className="text-black text-center font-azo not-italic text-[12px] min-[400px]:text-base font-normal leading-[108.744%] uppercase absolute right-[12px] min-[1200px]:right-0 top-[25px]"

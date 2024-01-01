@@ -8,14 +8,18 @@ import ytwitter from "../assets/images/ytwitter.webp";
 function Section7() {
   return (
     <>
-      <div className="bg-[#0A0A0A] pt-6 sm:pt-0 pb-12 md:pb-0">
+      <div className="bg-[#0A0A0A] pt-6 sm:pt-0 pb-12 md:pb-0 overflow-hidden">
         <div className="max-w-[1164px] mx-auto px-3">
-          <h2 className="text-white text-center font-azo text-[33px] sm:text-[64px] not-italic font-normal leading-[108.744%] pb-[53px]">
+          <h2
+            className="text-white text-center font-azo text-[33px] sm:text-[64px] not-italic font-normal leading-[108.744%] pb-[53px]"
+            data-aos="zoom-in"
+            data-aos-once="true"
+          >
             Meet The Team
           </h2>
-          <div className="w-full h-[1px] bg-[#FDDA60] shadow-[0_0_15px_1px_#FDDA60]"></div>
+          <div className="w-full h-[1px] bg-[#FDDA60] shadow-[0_0_15px_1px_#FDDA60]" data-aos-once="true" data-aos="zoom-in"></div>
           <div className="pt-[23px] pb-[65px] flex flex-wrap gap-y-4">
-            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start" data-aos-once="true" data-aos="fade-right">
               <h3 className="text-white font-montserrat text-[24px] not-italic font-bold leading-[108.744%] pb-3">
                 Jaylon Schleifer
               </h3>
@@ -28,7 +32,7 @@ function Section7() {
                 alt="man"
               />
             </div>
-            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start" data-aos-once="true" data-aos="fade-left">
               <h3 className="text-white font-montserrat text-[24px] not-italic font-semibold leading-[108.744%] pb-3">
                 @Jaylon Schleifer
               </h3>
@@ -66,9 +70,9 @@ function Section7() {
             </div>
           </div>
 
-          <div className="w-full h-[1px] bg-[#FDDA60] shadow-[0_0_15px_1px_#FDDA60]"></div>
+          <div className="w-full h-[1px] bg-[#FDDA60] shadow-[0_0_15px_1px_#FDDA60]" data-aos-once="true" data-aos="zoom-in"></div>
           <div className="pt-[34px] pb-[65px] flex flex-wrap gap-y-4">
-            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start" data-aos-once="true" data-aos="fade-right">
               <h3 className="text-white font-montserrat text-[24px] not-italic font-bold leading-[108.744%] pb-3">
                 Talan Passaquindici Arcand
               </h3>
@@ -81,7 +85,7 @@ function Section7() {
                 alt="man"
               />
             </div>
-            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start" data-aos-once="true" data-aos="fade-left">
               <h3 className="text-white font-montserrat text-[24px] not-italic font-semibold leading-[108.744%] pb-3">
                 @Talan Passaquindici Arcand
               </h3>
@@ -100,18 +104,26 @@ function Section7() {
               </p>
               <div className="flex gap-4">
                 <a href="https://www.instagram.com/" target="_blank">
-                  <img className="duration-300 drop-shadow-[0_0_5px_#FDDA60] hover:drop-shadow-none" src={yinsta} alt="instagram logo" />
+                  <img
+                    className="duration-300 drop-shadow-[0_0_5px_#FDDA60] hover:drop-shadow-none"
+                    src={yinsta}
+                    alt="instagram logo"
+                  />
                 </a>
                 <a href="https://twitter.com/" target="_blank">
-                  <img className="duration-300 drop-shadow-[0_0_5px_#FDDA60] hover:drop-shadow-none" src={ytwitter} alt="twitter logo" />
+                  <img
+                    className="duration-300 drop-shadow-[0_0_5px_#FDDA60] hover:drop-shadow-none"
+                    src={ytwitter}
+                    alt="twitter logo"
+                  />
                 </a>
               </div>
             </div>
           </div>
 
-          <div className="w-full h-[1px] bg-[#FDDA60] shadow-[0_0_15px_1px_#FDDA60]"></div>
+          <div className="w-full h-[1px] bg-[#FDDA60] shadow-[0_0_15px_1px_#FDDA60]" data-aos-once="true" data-aos="zoom-in"></div>
           <div className="pt-[34px] md:pb-[141px] flex flex-wrap gap-y-4">
-            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start" data-aos-once="true" data-aos="fade-right">
               <h3 className="text-white font-montserrat text-[24px] not-italic font-bold leading-[108.744%] pb-3">
                 Alfonso Franci
               </h3>
@@ -124,7 +136,7 @@ function Section7() {
                 alt="man"
               />
             </div>
-            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start" data-aos-once="true" data-aos="fade-left">
               <h3 className="text-white font-montserrat text-[24px] not-italic font-semibold leading-[108.744%] pb-3">
                 @Alfonso Franci
               </h3>
@@ -143,10 +155,18 @@ function Section7() {
               </p>
               <div className="flex gap-4">
                 <a href="https://www.instagram.com/" target="_blank">
-                  <img className="duration-300 drop-shadow-[0_0_5px_#FDDA60] hover:drop-shadow-none" src={yinsta} alt="instagram logo" />
+                  <img
+                    className="duration-300 drop-shadow-[0_0_5px_#FDDA60] hover:drop-shadow-none"
+                    src={yinsta}
+                    alt="instagram logo"
+                  />
                 </a>
                 <a href="https://twitter.com/" target="_blank">
-                  <img className="duration-300 drop-shadow-[0_0_5px_#FDDA60] hover:drop-shadow-none" src={ytwitter} alt="twitter logo" />
+                  <img
+                    className="duration-300 drop-shadow-[0_0_5px_#FDDA60] hover:drop-shadow-none"
+                    src={ytwitter}
+                    alt="twitter logo"
+                  />
                 </a>
               </div>
             </div>

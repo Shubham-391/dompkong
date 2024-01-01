@@ -50,7 +50,7 @@ function Section6() {
 
   return (
     <>
-      <div className="bg-[#0A0A0A]">
+      <div className="bg-[#0A0A0A] overflow-hidden" data-aos="zoom-in" data-aos-once="true">
         <div className="max-w-[1164px] px-3 mx-auto py-6">
           <h2 className="text-white text-center font-azo text-[50px] sm:text-[64px] not-italic font-normal leading-[108.744%] pb-[52px]">
             Partners

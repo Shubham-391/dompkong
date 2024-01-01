@@ -58,11 +58,17 @@ function Section3() {
       <div className="md:min-h-[1124px] w-full bg-[#0A0A0A] flex flex-col items-center relative overflow-hidden">
         {/* main box */}
         <div className="absolute w-[182px] md:w-[364px] h-[182px] md:h-[364px] rounded-[50%] bg-[#FDDA60] blur-[180px] top-[10%] md:top-[34%]"></div>
-        <h1 className="sm:pt-[44px] text-white text-center font-azo text-[45px] sm:text-[64px] not-italic font-normal leading-[108.744%]">
+        <h1
+          className="sm:pt-[44px] text-white text-center font-azo text-[45px] sm:text-[64px] not-italic font-normal leading-[108.744%]"
+          data-aos="zoom-in"
+          data-aos-once="true"
+        >
           THE KONGS
         </h1>
         <Slider
           className="min-[1200px]:hidden block max-w-[1416px] mx-auto px-3 w-full mt-6"
+          data-aos="zoom-in"
+          data-aos-once="true"
           {...settings}
         >
           <div className="h-[200px]">
@@ -103,11 +109,15 @@ function Section3() {
         </Slider>
         <img
           className="max-w-[786px] translate-y-[-70px] w-full relative z-[2] object-cover"
+          data-aos="zoom-in"
+          data-aos-once="true"
           src={goldenApe}
           alt="golden ape"
         />
         <Slider
           className="min-[1200px]:hidden block max-w-[1416px] mx-auto px-3 w-full mb-6"
+          data-aos="zoom-in"
+          data-aos-once="true"
           {...settings}
         >
           <div className="h-[200px]">
@@ -131,7 +141,7 @@ function Section3() {
               alt="ape"
             />
           </div>
-          <div className="h-[200px]]">
+          <div className="h-[200px]">
             <img
               className="rounded-[8px] border-none shadow-[0_0_15px_0_#FDDA60"
               src={Elvis}
@@ -147,23 +157,43 @@ function Section3() {
           </div>
         </Slider>
         {/* side boxes left side */}
-        <div className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] shadow-[0_0_15px_0_#FDDA60] top-0 left-[-2%]">
+        <div
+          className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] shadow-[0_0_15px_0_#FDDA60] top-0 left-[-2%]"
+          data-aos="fade-right"
+          data-aos-once="true"
+        >
           <img
             className="rounded-[8px] border-none"
             src={brownApe}
             alt="brown ape"
           />
         </div>
-        <div className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] shadow-[0_0_15px_0_#FDDA60] top-[19%] left-[4%]">
+        <div
+          className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] shadow-[0_0_15px_0_#FDDA60] top-[19%] left-[4%]"
+          data-aos="fade-right"
+          data-aos-once="true"
+        >
           <img className="rounded-[8px] border-none" src={Rambo} alt="ape" />
         </div>
-        <div className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] shadow-[0_0_15px_0_#FDDA60] top-[38%] left-[6%] min-[1350px]:left-[12%]">
+        <div
+          className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] shadow-[0_0_15px_0_#FDDA60] top-[38%] left-[6%] min-[1350px]:left-[12%]"
+          data-aos="fade-right"
+          data-aos-once="true"
+        >
           <img className="rounded-[8px] border-none" src={Albert} alt="ape" />
         </div>
-        <div className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] shadow-[0_0_15px_0_#FDDA60] top-[57%] left-[4%]">
+        <div
+          className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] shadow-[0_0_15px_0_#FDDA60] top-[57%] left-[4%]"
+          data-aos="fade-right"
+          data-aos-once="true"
+        >
           <img className="rounded-[8px] border-none" src={Prince} alt="ape" />
         </div>
-        <div className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] shadow-[0_0_15px_0_#FDDA60] bottom-[8%] left-[-2%]">
+        <div
+          className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] shadow-[0_0_15px_0_#FDDA60] bottom-[8%] left-[-2%]"
+          data-aos="fade-right"
+          data-aos-once="true"
+        >
           <img
             className="rounded-[8px] border-none"
             src={Royals}
@@ -171,27 +201,47 @@ function Section3() {
           />
         </div>
         {/* side boxes right side */}
-        <div className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] top-0 right-[-2%]">
+        <div
+          className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] top-0 right-[-2%]"
+          data-aos="fade-left"
+          data-aos-once="true"
+        >
           <img
             className="rounded-[8px] border-none"
             src={HeMan}
             alt="brown ape"
           />
         </div>
-        <div className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] top-[19%] right-[4%]">
+        <div
+          className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] top-[19%] right-[4%]"
+          data-aos="fade-left"
+          data-aos-once="true"
+        >
           <img
             className="rounded-[8px] border-none"
             src={Anonymous}
             alt="ape"
           />
         </div>
-        <div className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] top-[38%] right-[6%] min-[1350px]:right-[12%]">
+        <div
+          className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] top-[38%] right-[6%] min-[1350px]:right-[12%]"
+          data-aos="fade-left"
+          data-aos-once="true"
+        >
           <img className="rounded-[8px] border-none" src={Pac} alt="ape" />
         </div>
-        <div className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-none shadow-[0_0_15px_0_#FDDA60] top-[57%] right-[4%]">
+        <div
+          className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-none shadow-[0_0_15px_0_#FDDA60] top-[57%] right-[4%]"
+          data-aos="fade-left"
+          data-aos-once="true"
+        >
           <img className="rounded-[8px] border-none" src={Elvis} alt="ape" />
         </div>
-        <div className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] shadow-[0_0_15px_0_#FDDA60] bottom-[8%] right-[-2%]">
+        <div
+          className="hidden min-[1200px]:block absolute w-[180px] h-[180px] rounded-[8px] border-4 border-solid border-[#FDDA60] shadow-[0_0_15px_0_#FDDA60] bottom-[8%] right-[-2%]"
+          data-aos="fade-left"
+          data-aos-once="true"
+        >
           <img
             className="rounded-[8px] border-none"
             src={brownApe}
