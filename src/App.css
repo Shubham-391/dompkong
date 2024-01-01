@@ -9,3 +9,19 @@
 .section8-bg{
     background-image: url(/src/assets/images/section8bg.webp);
 }
+@keyframes fade-left {
+    0% {
+        opacity: 0;
+        transform: translate3d(100px, 0, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+.fade-left{
+    animation-name: fade-left;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}

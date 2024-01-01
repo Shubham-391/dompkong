@@ -17,17 +17,17 @@ function Header() {
     <>
       <div className="min-h-[810px] min-[1440px]:min-h-screen header-bg bg-no-repeat bg-cover bg-center relative overflow-hidden">
         <img
-          className="hidden xl:block absolute w-[641px] bottom-0 right-[-20.5%] min-[1440px]:right-[-14%] z-[3]"
+          className="hidden xl:block absolute w-[641px] bottom-0 right-[-20.5%] min-[1440px]:right-[-14%] z-[3] fade-left"
           src={heroalbert}
           alt="ape"
         />
         <img
-          className="hidden xl:block absolute w-[417px] z-[2] bottom-0 right-[10.5%]"
+          className="hidden xl:block absolute w-[417px] z-[2] bottom-0 right-[10.5%] fade-left"
           src={heroprince}
           alt="ape"
         />
         <img
-          className="absolute w-[405px] bottom-0 right-0 sm:right-[31%]"
+          className="absolute w-[405px] bottom-0 right-0 sm:right-[31%] fade-left"
           src={heropac}
           alt="ape"
         />
