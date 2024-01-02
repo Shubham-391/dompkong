@@ -98,7 +98,7 @@ function Section8() {
         </div>
         <div className="w-full h-[1px] bg-white mt-[27px]"></div>
         <p className="text-white font-montserrat text-base not-italic font-normal leading-normal text-center mt-[16px]">
-          © DomPKong 2022
+          © DomPKong {new Date().getFullYear()}
         </p>
       </div>
     </>
